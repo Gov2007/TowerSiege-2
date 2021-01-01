@@ -9,9 +9,9 @@ var stand1, stand2;
 var ball;
 var slingShot;
 var polygonImg;
-var score = 0;
+//var score = 0;
 function preload() {
-  polygonImg = loadImage("Images/polygon.png");
+  polygonImg = loadImage("polygon.png");
 }
 function setup() {
   createCanvas(900, 400);
@@ -44,7 +44,7 @@ function draw() {
   background(153, 217, 234);
 
   //Engine.update(engine);
-  text("SCORE : " + score, 750, 40);
+ // text("SCORE : " + score, 750, 40);
   ground.display();
   strokeWeight(2);
   stroke(15);
